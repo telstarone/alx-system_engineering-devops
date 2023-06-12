@@ -1,17 +1,17 @@
 # Web server
 
 In this project, I learned how web servers work and began using one. I was
-provided a personal server by Holberton School. I learned how to use `scp`
+provided a personal server by ALX School. I learned how to use `scp`
 and Fabric to transfer files to my server. Additionally, I completed a basic
 configuration of the server using Nginx.
 
-The server is accessible at [bdbnb.site](http://bdbnb.site).
+The server is accessible at [alxdevops.tech](http://alxdevops.tech).
 
 ## Tasks :page_with_curl:
 
 * **0. Transfer a file to your server**
   * [0-transfer_file](./0-transfer_file): Bash script that transfers a file
-  from Holberton's client to a server.
+  from ALX's client to a server.
   * Accepts four arguments:
     * The path of the file to be transferred.
     * The IP of the server to transfer the file to.
@@ -47,21 +47,4 @@ The server is accessible at [bdbnb.site](http://bdbnb.site).
 
 * **5. Design a beautiful 404 page**
   * A custom-designed 404 error page for my server, accessible at
-  [bdbnb.site/404](http://bdbnb.site/404).
-
-* **6. Deploy fast, deploy well**
-  * [fabfile.py](./fabfile.py): A Python Fabric configuration file defining
-  the following functions:
-  * `pack`
-    * Usage: `fabric pack`
-    * Creates a tar gzipped archive of the current directory named
-    `holbertonwebapp.tar.gz` in the local directory.
-  * `deploy`
-    * Usage: `fabric -H <remote server IP> deploy`
-    * Uploads the archive `holbertonwebapp.tar.gz` to the `/tmp`
-    directory of the remote server.
-    * Creates the directory `/tmp/holbertonwebapp` in the remote server.
-    * Untars `holbertonwebapp.tar.gz` in the `/tmp/holbertonwebapp` directory
-    of the remote server.
-  * `clean`
-    * Deletes the archive `holbertonwebapp.tar.gz` in the local directory.
+  [alxdevops.tech/404](http://alxdevops.tech/404).
